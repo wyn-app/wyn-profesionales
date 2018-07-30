@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">WYN Profesionales</string>
+
+    <string name="mapid">AIzaSyAGQvc50HyunyUZEu5ZKgfCAr_1XHXl5Po</string>
+    <string name="information_matricula">¿Cuenta con matricula?</string>
+    <string name="information_fastwork">¿Tiene disponibilidad para realizar trabajos de emergencia?</string>
+    <string name="information_photo">Subir imágen de perfil</string>
+    <string name="information_name">Apellido y Nombre / Nombre de la empresa</string>
+    <string name="information_finalizar">Registrarse</string>
+    <string name="pick_image_intent_text">Seleccione la imagen de perfil</string>
+    <string name="information_professions">Profesion</string>
+    <string name="ok">Aceptar</string>
+    <string name="registro_error_title">Ha ocurrido un error. Verifique los siguientes campos:</string>
+    <string name="information_description">Breve descripción profesional</string>
+    <string name="solicitado_detalles">Detalles</string>
+    <string name="turnoitem_cancel">Cancelar</string>
+    <string name="turnoitem_confirmar">Dar turno</string>
+    <string name="informes_solicitados_warning_message">No hay informes pendientes</string>
+    <string name="informes_historial_warning_message">No se han encontrado informes en su historial</string>
+    <string name="title_activity_main">WYN Profesionales</string>
+    <string name="action_settings">Configuración</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="informes_solitados_title">Trabajos solicitados</string>
+    <string name="informes_historial_title">Trabajos realizados</string>
+    <string name="title_activity_dar_turno">DarTurnoActivity</string>
+    <string name="margen_dias">El cliente puede los dias: %1$s</string>
+    <string name="margen_horario">Entre las %1$d y las %2$d</string>
+    <string name="darhora">Elige la hora</string>
+    <string name="darfecha">Elige el día</string>
+    <string name="hour_error">La hora asignada no coincide con la disponibilidad del cliente</string>
+    <string name="day_error">El día asignado no coincide con la disponibilidad del cliente</string>
+    <string name="date_error">La fecha no puede ser anterior al día de hoy</string>
+    <string name="turno_error">Debes elegir el dia y la hora</string>
+    <string name="title_activity_login">Ingresar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">La direccion de email es invalida</string>
+    <string name="error_invalid_password">La constraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Debe completar este campo</string>
+    <string name="auth_failed">Ha ocurrido un error al iniciar sesión</string>
+    <string name="information_factura">¿Realiza factura o recibo por su trabajo?</string>
+    <string name="information_gps">Seleccione su ubicación</string>
+    <string name="profession_selection">Selecciona una profesión</string>
+    <string name="presupuesto_detalle_title">Detalles del cliente</string>
+    <string name="presupuesto_profesional_title">Ingrese su presupuesto</string>
+    <string name="costoaprox">El costo será de aproximadamente</string>
+    <string name="price">Precio</string>
+    <string name="excluirmanodeobra">Descriminar la mano de obra</string>
+    <string name="manodeobra">Mano de obra</string>
+    <string name="questionmateriales">El precio incluye materiales</string>
+    <string name="detallespresupuesto">Aclaraciones.</string>
+    <string name="menu_guardar">Enviar presupuesto</string>
+    <string name="menu_cancelar">Rechazar</string>
+    <string name="presupuesto_confirm_title">Enviar presupuesto</string>
+    <string name="presupuesto_confirm_message">Enviar el presupueso por $%1$d</string>
+    <string name="incluir_manodeobra">incluida la mano de obra</string>
+    <string name="discriminada_manodeobra">con una mano de obra de $%1$d</string>
+    <string name="sinmateriales">No incluido los materiales</string>
+    <string name="incluir_materiales">Incluido los materiales</string>
+    <string name="presupuesto_title">Presupuesto</string>
+
+    <string-array name="profesiones">
+        <item>Selecciona una categoria</item>
+        <item>Servicios para el hogar</item>
+        <item>Servicios para empresas</item>
+        <item>Educación</item>
+        <item>Deporte</item>
+        <item>Servicios para autos</item>
+        <item>Estética personal</item>
+        <item>Serivicios Médicos</item>
+    </string-array>
+
+    <string-array name="subcategories_1">
+        <item>Selecciona una sub-categoria</item>
+        <item>Carpintería</item>
+        <item>Cerrajería</item>
+        <item>Construcción</item>
+        <item>Cuidado de personas mayores</item>
+        <item>Electricidad</item>
+        <item>Gas</item>
+        <item>Herrería</item>
+        <item>Jardinería</item>
+        <item>Mudanzas / Fletes</item>
+        <item>Multitareas</item>
+        <item>Niñero/a</item>
+        <item>Piletas</item>
+        <item>Pintura / Hidrolavado</item>
+        <item>Plomería</item>
+    </string-array>
+
+    <string-array name="subcategories_2">
+        <item>Selecciona una sub-categoria</item>
+        <item>Limpieza</item>
+        <item>Seguridad</item>
+        <item>Ingles</item>
+        <item>Organización de eventos</item>
+        <item>Proveedores varios</item>
+        <item>Marketing</item>
+    </string-array>
+
+    <string-array name="subcategories_3">
+        <item>Selecciona una sub-categoria</item>
+        <item>Matemáticas</item>
+        <item>Idiomas</item>
+    </string-array>
+
+    <string-array name="subcategories_4">
+        <item>Selecciona una sub-categoria</item>
+        <item>Artes marciales</item>
+        <item>Personal Trainer</item>
+        <item>Fútbol</item>
+        <item>Crossfit / Funcional</item>
+    </string-array>
+    <string-array name="subcategories_5">
+        <item>Selecciona una sub-categoria</item>
+        <item>Lavadero</item>
+        <item>Mecánico</item>
+        <item>Repuestos</item>
+        <item>Polarizado</item>
+    </string-array>
+
+    <string-array name="subcategories_6">
+        <item>Selecciona una sub-categoria</item>
+        <item>A domicilio</item>
+        <item>Peluqueria</item>
+        <item>Salón de estética</item>
+    </string-array>
+    <string-array name="subcategories_7">
+        <item>Selecciona una sub-categoria</item>
+        <item>Enfermero/a</item>
+        <item>Kinesiología</item>
+        <item>Nutricionista</item>
+    </string-array>
+
+    <string name="carpinteria">Carpinteria</string>
+    <string name="cerrajeria">Cerrajeria</string>
+    <string name="construccion">Construcción</string>
+    <string name="electicidad">Electicidad</string>
+    <string name="gas">Gas</string>
+    <string name="herreria">Herreria</string>
+    <string name="jardineria">Jardineria</string>
+    <string name="mudanza">Mudanza</string>
+    <string name="multitarea">Multitarea</string>
+    <string name="limpieza">Limpieza</string>
+    <string name="seguridad">Seguridad</string>
+    <string name="inglesemp">Ingles empresarial</string>
+    <string name="organizacion">Organización de eventos</string>
+    <string name="proveedores">Proveedores</string>
+    <string name="marketing">Marketing</string>
+    <string name="inglesedu">Ingles</string>
+    <string name="exactas">Matemáticas</string>
+    <string name="artesmarciales">Artes Marciales</string>
+    <string name="personal">Personal Trainer</string>
+    <string name="futbol">Futbol</string>
+    <string name="crossfit">Crossfit</string>
+    <string name="polarizado">Polarizado</string>
+    <string name="repuestos">Respuestos</string>
+    <string name="mecanico">Mecanico</string>
+    <string name="lavadero">Lavadero</string>
+    <string name="climatizacion">Climatizacion</string>
+    <string name="niniera">Niñera</string>
+    <string name="pintura">Pintura</string>
+    <string name="plomeria">Plomeria</string>
+    <string name="piletas">Piletas</string>
+    <string name="estitcadomiciolio">Estética a domicilio</string>
+    <string name="peluqueria">Peluqueria</string>
+    <string name="salon">Salón</string>
+    <string name="enfermero">Enfermero/a</string>
+    <string name="kinesio">Kinesiologia</string>
+    <string name="nutrisionista">Nutricionista</string>
+
+    <string name="profession_carpinteria">Carpintería</string>
+    <string name="profession_cerrajeria">Cerrajería</string>
+    <string name="profession_construccion">Construcción</string>
+    <string name="profession_electricidad">Electricidad</string>
+    <string name="profession_gas">Gas</string>
+    <string name="profession_herreria">Herrería</string>
+    <string name="profession_jardineria">Jardinería</string>
+    <string name="profession_mudanzas">Mudanzas / Fletes</string>
+    <string name="profession_multitareas">Multitareas</string>
+    <string name="profession_pintura">Pintura</string>
+    <string name="profession_hidro">Pintura / Hidrolavado</string>
+    <string name="profession_plomeria">Plomería</string>
+
+    <string name="title_activity_nueva_main">NuevaMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="main_menu_home">Inicio</string>
+    <string name="main_menu_solicitados">Trabajos solicitados</string>
+    <string name="main_menu_historial">Trabajos realizados</string>
+    <string name="main_menu_configuracion">Configuracion</string>
+    <string name="main_menu_presupuestos">Presupuestos</string>
+    <string name="presupuestar">Presupuestar</string>
+    <string name="presupuestos_warning">No te han solicitado presupuestos</string>
+    <string name="email">E-mail</string>
+    <string name="name">Nombre completo</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Registrarse</string>
+    <string name="alreadylogin">Ya estoy registrado</string>
+    <string name="error_message">Ha ocurrido un error. Verifica los siguientes campos:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="today">HOY</string>
+    <string name="sintrabajos">Hoy no tienes ningun trabajo pendiente</string>
+    <string name="notificaciones">PRESUPUESTOS</string>
+    <string name="waitmessage">Aguarde un momento por favor</string>
+    <string name="information_dni">DNI / CUIL / CUIT</string>
+    <string name="welcome">Bienvenido a WYN Prestadores</string>
+    <string name="information_helping_message">Puedes seleccionar varias profesiones.</string>
+    <string name="main_menu_logout">Cerrar sesión</string>
+    <string name="cerrar_sesion_message">¿Estás seguro que deseas cerrar sesión?</string>
+    <string name="cerrar_sesion_title">Cerrar sesión</string>
+    <string name="cancel">Cancelar</string>
+    <string name="main_menu_edit">Editar perfil</string>
+    <string name="shortPassword">La contraseña debe ser de 6 caracteres como mínimo</string>
+    <string name="save">Guardar</string>
+    <string name="sinconfirmar">No tienes turnos pendientes de confirmación</string>
+    <string name="pendientes">TURNOS PENDIENTES</string>
+    <string name="sinpresupuestos">No tienes presupuestos pendientes</string>
+
+    <plurals name="presupuestos_home">
+        <item quantity="one">Tienes un presupuesto pendiente</item>
+        <item quantity="other">Tienes %1$s presupuestos pendientes</item>
+    </plurals>
+
+    <plurals name="pendientes_home">
+        <item quantity="one">Tienes un turno pendiente de confirmación</item>
+        <item quantity="other">Tienes %1$s turnos pendientes de confirmación</item>
+    </plurals>
+
+    <plurals name="works_home">
+        <item quantity="one">Tienes un trabajo para realizar</item>
+        <item quantity="other">TIenes %1$s trabajos para realizar</item>
+    </plurals>
+</resources>

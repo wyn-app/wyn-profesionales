@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.santiagonoailles.matsprofesionales.DarTurnoActivity"
+    tools:showIn="@layout/activity_dar_turno">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datacontainer"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/solicitado_detalles"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/informeItem_detalleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/informeItem_detalleImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_below="@+id/cardview"
+        android:id="@+id/dateTitle"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/dar_turno_fechaButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateTitle"
+        android:layout_marginTop="8dp"
+        android:text="@string/darfecha" />
+
+
+    <TextView
+        android:id="@+id/horaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dar_turno_fechaButton"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/dar_turno_horaButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horaTitle"
+        android:layout_marginTop="8dp"
+        android:text="@string/darhora" />
+</RelativeLayout>

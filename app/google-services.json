@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "80704930729",
+    "firebase_url": "https://mats-1d1ca.firebaseio.com",
+    "project_id": "mats-1d1ca",
+    "storage_bucket": "mats-1d1ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80704930729:android:162e91a4d54e6b45",
+        "android_client_info": {
+          "package_name": "com.santiagonoailles.mats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80704930729-phnepgj6ib0v6l8kurdhvtg6b33o8vvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapPl7p9Dd4RCU3ZuAB6i0BXpFthiQEr8"
+        },
+        {
+          "current_key": "AIzaSyDhrIp33GJPDgHXsNz6EKkP9wzQ879ABPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80704930729:android:ae49b192677c6187",
+        "android_client_info": {
+          "package_name": "com.santiagonoailles.matsprofesionales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80704930729-phnepgj6ib0v6l8kurdhvtg6b33o8vvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapPl7p9Dd4RCU3ZuAB6i0BXpFthiQEr8"
+        },
+        {
+          "current_key": "AIzaSyDhrIp33GJPDgHXsNz6EKkP9wzQ879ABPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

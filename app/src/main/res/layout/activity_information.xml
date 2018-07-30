@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.santiagonoailles.matsprofesionales.InformationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/information_registrarse_button"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/information_name_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="@string/information_name" />
+
+            <EditText
+                android:id="@+id/information_dni_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/information_name_edittext"
+                android:layout_margin="8dp"
+                android:hint="@string/information_dni"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/information_description_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/information_dni_edittext"
+                android:layout_margin="8dp"
+                android:hint="@string/information_description" />
+
+            <TextView
+                android:id="@+id/helpmessage"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_description_edittext"
+                android:layout_margin="8dp"
+                android:text="@string/information_helping_message" />
+
+            <Spinner
+                android:id="@+id/information_profession_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helpmessage"
+                android:layout_margin="8dp" />
+
+            <Spinner
+                android:id="@+id/information_subcategories_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_profession_spinner"
+                android:layout_margin="8dp" />
+
+            <HorizontalScrollView
+                android:id="@+id/professions_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_subcategories_spinner"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:id="@+id/professions_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/information_photo_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/professions_scroll"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:id="@+id/information_photo_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_photo_imageview"
+                android:text="@string/information_photo" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/information_fastwork_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_photo_button"
+                android:layout_margin="8dp"
+                android:text="@string/information_fastwork" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/information_matricula_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_fastwork_switch"
+                android:layout_margin="8dp"
+                android:text="@string/information_matricula" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/information_factura_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_matricula_switch"
+                android:layout_margin="8dp"
+                android:text="@string/information_factura" />
+
+            <Button
+                android:id="@+id/information_gps_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/information_factura_switch"
+                android:enabled="false"
+                android:text="@string/information_gps" />
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/information_gps_button"
+                android:layout_margin="8dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/information_registrarse_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/information_finalizar" />
+</RelativeLayout>

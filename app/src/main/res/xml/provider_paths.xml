@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="tempImage" />
+    <external-files-path name="tempImage" />
+    <external-path name="tempImage" path="Android/data/com.santiagonoailles.matsprofesionales/cache/" />
+</paths>
